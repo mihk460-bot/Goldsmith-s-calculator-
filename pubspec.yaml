@@ -1,0 +1,29 @@
+name: goldsmith_calculator
+description: "حاسبة الصاغة المصرية — تطبيق لحساب سعر بيع وشراء المشغولات الذهبية والفضية"
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: 
+    sdk: flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  supabase_flutter: ^2.3.0
+  device_info_plus: ^9.1.0
+  shared_preferences: ^2.2.2
+  http: ^1.2.0
+  flutter_secure_storage: ^9.0.0
+  html: ^0.15.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
