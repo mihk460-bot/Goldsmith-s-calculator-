@@ -1,6 +1,6 @@
-name: Build APK
+branches: Build APK
 
-on: push: branches: [ main ] workflow_dispatch: {}
+pushb ranchesches: [ main ] workflow_dispatch: {}
 
 jobs: build: runs-on: ubuntu-latest
 steps:
